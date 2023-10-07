@@ -1,0 +1,103 @@
+<!--Bottom navbar-->
+    <div class="nav">
+        <nav>
+            <ul>
+                <a href="">
+                    <span class="material-symbols-outlined navb">
+                        home
+                    </span>
+                </a>
+                <a href="">
+                    <span class="material-symbols-outlined navb">
+                        category
+                    </span>
+                </a>
+                <a href="">
+                    <span class="material-symbols-outlined navb">
+                        shopping_bag
+                    </span>
+                </a>
+                <a href="">
+                    <span class="material-symbols-outlined navb">
+                        person
+                    </span>
+                </a>
+            </ul>
+        </nav>
+    </div>
+
+    .navb{
+        background: none;
+        font-size: 20px;
+        position: sticky;
+    }
+    .navb:hover{
+        opacity: 0.7;
+    }
+    .product-card{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .product-wrapper{
+        width: 100px;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    body{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #4070F4;
+    }
+
+    <div class="navbar">
+        <ul>
+            <li class="active">
+                <a href="#">
+                    <span class="material-symbols-outlined navb">
+                        Home
+                    </span>
+                </a>
+              </li>
+              <br>
+              <li>
+                <a href="#">
+                    <span class="material-symbols-outlined navb">
+                        category
+                    </span>
+                </a>
+              </li>
+              <br>
+              <li>
+                <a href="#">
+                    <span class="material-symbols-outlined navb">
+                        shopping_bag
+                    </span>
+                </a>
+              </li>
+              <br>
+              <li>
+                <a href="#">
+                    <span class="material-symbols-outlined navb">
+                        person
+                    </span>
+                </a>
+              </li>
+          <div class="indicator"></div>
+        </ul>
+      </div>
+
+
+              <!--Hero banner-->
+              <div class="hero">
+                <div class="card">
+                    <img class="banner" src="blog-image-2.png" alt="">
+                </div>
+            </div>
+        </div>
